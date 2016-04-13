@@ -26,7 +26,11 @@ body {
 
 .top-navigation .links {
 	float: right;
-	margin-top: 25px;	
+	font-family: 'Roboto', sans-serif;
+    color: #838994;
+    font-size: 16px;
+    margin-top: 25px;
+    -webkit-font-smoothing: antialiased;	
 }
 
 .top-navigation .links > .active {
@@ -39,12 +43,12 @@ body {
 	height: 70px;
 }
 
-ul li {
+.top-navigation .links  li {
 	display: inline-block;
-	margin-left: 15px;
+	margin-left: 25px;
 }
 
-ul li:hover {
-	color: red;
-	cursor: default;
+.top-navigation .links  li:hover {
+	color: #333;
+	cursor: pointer;
 }
