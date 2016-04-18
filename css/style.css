@@ -67,7 +67,7 @@ body {
 	overflow: auto;
 }
 
-.introduction .content {
+.content {
 	text-align: center;
 }
 
@@ -111,6 +111,7 @@ button:hover {
 	padding-bottom: 5rem;
 	margin: 0 auto;
 	text-align: center;
+	height: 28em;
 }
 
 .cases h2 {
@@ -123,18 +124,73 @@ button:hover {
     display: inline-block;
     /* styles to assist with debugging */
    box-sizing: border-box;
-    height: 4em;
+    height: 8em;
 }
 
 ul.devices {
 	list-style: none;
+	height: 8em;
+	padding: 0;
 }
 
-ul li {
+.cases .devices h3 {
+    font-weight: 400;
+    font-size: 1.563rem;
+    margin: 2.5rem 0px 1.875rem;
+}
+
+.cases li {
 	float: left;
 }
 
 .captions {
 	color: #000;
 
+}
+
+ ul.icons {
+	list-style: none;
+	padding: 0;
+}
+
+.icons > li {
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
+}
+
+li.twitter {
+    color: #55acee;
+}
+
+li.facebook {
+    color: #4c66a4;
+}
+
+li.instagram {
+	color: #C13A19;
+}
+
+footer {
+	padding-bottom: 9rem;
+}
+
+footer .content {
+	height: 100%;
+	min-width: 75rem;
+}
+
+footer h4 {
+	font-weight: 300;
+	color: #000;
+}
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
 }
